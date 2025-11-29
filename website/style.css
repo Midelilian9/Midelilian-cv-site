@@ -1,0 +1,80 @@
+/* ------------------------------------------
+   RESET / BASE SETTINGS
+------------------------------------------ */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ------------------------------------------
+   THEME COLORS
+------------------------------------------ */
+:root {
+    --accent: #0b8a6f;          /* Emerald */
+    --accent-light: #d9f4ee;    /* Soft mint */
+    --text-dark: #333;
+    --background: #f5f5f5;
+    --white: #ffffff;
+}
+
+/* ------------------------------------------
+   BODY STYLING
+------------------------------------------ */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--background);
+    color: var(--text-dark);
+    padding: 20px;
+    line-height: 1.6;
+}
+
+/* Center each section like a modern CV card */
+body > * {
+    max-width: 800px;
+    margin: 0 auto 20px auto;
+    padding: 20px;
+    background-color: var(--white);
+    border-radius: 10px;
+}
+
+/* ------------------------------------------
+   HEADER
+------------------------------------------ */
+header {
+    text-align: center;
+    border-top: 6px solid var(--accent);
+    border-bottom: 6px solid var(--accent);
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 15px;
+    color: #555;
+}
+
+/* ------------------------------------------
+   HEADINGS
+------------------------------------------ */
+h2 {
+    font-size: 22px;
+    margin-bottom: 12px;
+    color: var(--accent);
+    border-left: 4px solid var(--accent);
+    padding-left: 10px;
+}
+
+h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: #444;
+}
+
+/* ------------------------------------------
+   SECTIONS & ARTICLES
+-----------------------------------
